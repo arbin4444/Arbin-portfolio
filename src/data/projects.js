@@ -1,0 +1,58 @@
+export const projects = [
+  {
+    name: 'First Intern project',
+    description: 'My first internship project — a foundational React application built while learning company workflows, Git collaboration, and component-based development.',
+    github: 'https://github.com/arbin4444/intern-project-repo.git',
+    demo: '',
+    image: '/projects/github.png',
+  },
+  {
+    name: 'Javascript Projects',
+    description: 'A collection of vanilla JavaScript mini-projects covering DOM manipulation, events, and core logic building.',
+    github: 'https://github.com/arbin4444/Intern-NodeJS.git',
+    demo: '',
+    image: '/projects/js.png',
+  },
+  {
+    name: 'HTML Projects',
+    description: 'A set of static site builds focused on layout structure, semantic HTML, and responsive design fundamentals.',
+    github: 'https://github.com/arbin4444/intern-HTMLProject.git',
+    demo: '',
+    image: '/projects/html.jpg',
+  },
+  {
+    name: 'Routes Project',
+    description: 'A multi-page single page application demonstrating nested routes, dynamic params, and protected routes using React Router.',
+    github: 'https://github.com/arbin4444/Intern-RouterProject.git',
+    demo: '',
+    image: '/projects/routerr.png',
+  },
+  {
+    name: 'TodoList Project-React JS',
+    description: 'A responsive todo application built with React hooks, supporting add, edit, delete, and mark-as-complete functionality.',
+    github: 'https://github.com/arbin4444/Intern-TodolistProject.git',
+    demo: '',
+    image: '/projects/todolist.jpg',
+  },
+  {
+    name: 'Fetch API Project',
+    description: 'A data-driven app consuming a public REST API with loading states, error handling, and pagination using the Fetch API.',
+    github: 'https://github.com/arbin4444/Intern-fetchApi.git',
+    demo: '',
+    image: '/projects/fetchApi.png',
+  },
+  {
+    name: 'GraphQL Project',
+    description: 'An exploration of GraphQL queries and mutations integrated into a React front end.',
+    github: 'https://github.com/arbin4444/Intern-Graphql.git',
+    demo: '',
+    image: '/projects/graphql.png',
+  },
+  {
+    name: 'TodoList-Redux Toolkit',
+    description: 'A todo application refactored to use Redux Toolkit for scalable, centralized state management.',
+    github: 'https://github.com/arbin4444/Intern-ReduxToolkit.git',
+    demo: '',
+    image: '/projects/todolist.jpg',
+  },
+]

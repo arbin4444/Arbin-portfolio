@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #2563EB;
+  color: #F8FAFC;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0F172A;
+}
+::-webkit-scrollbar-thumb {
+  background: #1E293B;
+  border-radius: 8px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2563EB;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto px-6 md:px-10;
+}
+
+.section-heading {
+  @apply text-3xl md:text-4xl font-display font-bold text-text mb-3;
+}
+
+.section-eyebrow {
+  @apply text-sm font-semibold tracking-widest uppercase text-secondary mb-3;
+}
+
+.glass-card {
+  @apply bg-card/60 backdrop-blur-md border border-white/5 rounded-2xl shadow-card;
+}
+
+.gradient-text {
+  @apply bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent;
+}
+
+.badge {
+  @apply text-xs font-medium px-3 py-1 rounded-full bg-primary/10 text-secondary border border-secondary/20;
+}
+
+:focus-visible {
+  outline: 2px solid #38BDF8;
+  outline-offset: 3px;
+}
