@@ -6,7 +6,14 @@ import Section from './Section'
  * Add certificates here as they're earned:
  * { title: 'Certificate Name', issuer: 'Issuing Org', date: 'Month Year', link: 'https://...' }
  */
-export const certificates = []
+export const certificates = [
+  {
+    title: 'Microsoft Excel Beginners To Advance',
+    issuer: 'Skill Course',
+    date: 'July 2026',
+    link: '/certificates/msexcel.png',
+  },
+]
 
 export default function Certificates() {
   return (
